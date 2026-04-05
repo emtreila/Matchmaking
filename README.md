@@ -1,13 +1,25 @@
+# Matchmaking
+A Windows desktop dating application built with WinUI 3 and SQL Server. Features profile creation, matchmaking, bidding, notifications and admin management.
 
-<img src="placeholder_user_photos/red.png"></img>
-<img src="placeholder_user_photos/green.png"></img>
-<img src="placeholder_user_photos/pink.png"></img>
+## Tech Stack
+- **Language:** C# / .NET 10.0
+- **Framework:** WinUI 3 / Windows App SDK
+- **Database:** SQL Server
 
-## Git Commands
-| Command | Description | 
-|---|---|
-| `git branch -a` | List all branches |
-| `git checkout -b <name>` | Create & switch to new branch |
-| `git pull origin main` | Pull latest from main |
-| `git merge <branch>` | Merge branch into current |
-| `git branch -d <name>` | Delete a local branch |
+## Features
+- **Profile Management**  : Create, edit and archive user profiles with photos, bio, interests and age preferences
+- **Discover**  : Browse and interact with potential matches
+- **Matching System**  : Like, bid and match with other users
+- **Hot Seat**  : Featured profile rotation system
+- **Notifications**  : Real-time alerts for likes, matches and super likes
+- **Admin Panel**  : User and content moderation
+- **Questionnaire**  : Compatibility questionnaire for better matching
+- **Spouse Checker**  : Hidden support ticket feature (type `DOUBT112` on the main window)
+Git Workflow
+Command
+git branch -a
+git checkout -b <name>
+git pull origin main
+git merge <branch>
+git branch -d <name>
+```
